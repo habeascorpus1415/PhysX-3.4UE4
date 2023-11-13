@@ -1,0 +1,1112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmBoxPruning.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmCollection.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmMathUtils.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmPtrTable.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmRadixSort.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmRadixSortBuffered.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmRenderOutput.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmVisualization.cpp">
+      <Filter>common\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\windows\CmWindowsModuleUpdateLoader.cpp">
+      <Filter>common\src\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\windows\CmWindowsDelayLoadHook.cpp">
+      <Filter>common\src\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuBounds.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuBox.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuCapsule.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuCCTSweepTests.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuGeometryQuery.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuGeometryUnion.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuInternal.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuMeshFactory.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuMetaData.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuMTD.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuOverlapTests.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuRaycastTests.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuSerialize.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuSweepMTD.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuSweepSharedTests.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuSweepTests.cpp">
+      <Filter>geomutils\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\ccd\GuCCDSweepConvexMesh.cpp">
+      <Filter>geomutils\src\ccd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\ccd\GuCCDSweepPrimitives.cpp">
+      <Filter>geomutils\src\ccd</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\common\GuBarycentricCoordinates.cpp">
+      <Filter>geomutils\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\common\GuSeparatingAxes.cpp">
+      <Filter>geomutils\src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactBoxBox.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactCapsuleBox.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactCapsuleCapsule.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactCapsuleConvex.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactCapsuleMesh.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactConvexConvex.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactConvexMesh.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactPlaneBox.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactPlaneCapsule.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactPlaneConvex.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactPolygonPolygon.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactSphereBox.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactSphereCapsule.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactSphereMesh.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactSpherePlane.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactSphereSphere.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuFeatureCode.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuLegacyContactBoxHeightField.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuLegacyContactCapsuleHeightField.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuLegacyContactConvexHeightField.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuLegacyContactSphereHeightField.cpp">
+      <Filter>geomutils\src\contact</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuBigConvexData.cpp">
+      <Filter>geomutils\src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuConvexHelper.cpp">
+      <Filter>geomutils\src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuConvexMesh.cpp">
+      <Filter>geomutils\src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuConvexSupportTable.cpp">
+      <Filter>geomutils\src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuConvexUtilsInternal.cpp">
+      <Filter>geomutils\src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuHillClimbing.cpp">
+      <Filter>geomutils\src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuShapeConvex.cpp">
+      <Filter>geomutils\src\convex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\distance\GuDistancePointBox.cpp">
+      <Filter>geomutils\src\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\distance\GuDistancePointTriangle.cpp">
+      <Filter>geomutils\src\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\distance\GuDistanceSegmentBox.cpp">
+      <Filter>geomutils\src\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\distance\GuDistanceSegmentSegment.cpp">
+      <Filter>geomutils\src\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\distance\GuDistanceSegmentTriangle.cpp">
+      <Filter>geomutils\src\distance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuEPA.cpp">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuGJKSimplex.cpp">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuGJKTest.cpp">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\hf\GuHeightField.cpp">
+      <Filter>geomutils\src\hf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\hf\GuHeightFieldUtil.cpp">
+      <Filter>geomutils\src\hf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\hf\GuOverlapTestsHF.cpp">
+      <Filter>geomutils\src\hf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\hf\GuSweepsHF.cpp">
+      <Filter>geomutils\src\hf</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionBoxBox.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionCapsuleTriangle.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionEdgeEdge.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionRayBox.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionRayCapsule.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionRaySphere.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionSphereBox.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionTriangleBox.cpp">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4Build.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_AABBSweep.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_BoxOverlap.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_CapsuleSweep.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_CapsuleSweepAA.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_OBBSweep.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_Raycast.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_SphereOverlap.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_SphereSweep.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuMidphaseBV4.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuMeshQuery.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuMidphaseRTree.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuOverlapTestsMesh.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuRTree.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuRTreeQueries.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuSweepsMesh.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuTriangleMesh.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuTriangleMeshBV4.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuTriangleMeshRTree.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV32.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV32Build.cpp">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactBoxBox.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactBoxConvex.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactCapsuleBox.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactCapsuleCapsule.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactCapsuleConvex.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactCapsuleHeightField.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactCapsuleMesh.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactConvexCommon.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactConvexConvex.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactConvexHeightField.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactConvexMesh.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactGenBoxConvex.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactGenSphereCapsule.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactPlaneBox.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactPlaneCapsule.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactPlaneConvex.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactSphereBox.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactSphereCapsule.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactSphereConvex.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactSphereHeightField.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactSphereMesh.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactSpherePlane.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactSphereSphere.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMShapeConvex.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMTriangleContactGen.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPersistentContactManifold.cpp">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepBoxBox.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepBoxSphere.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepBoxTriangle_FeatureBased.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepBoxTriangle_SAT.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepCapsuleBox.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepCapsuleCapsule.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepCapsuleTriangle.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepSphereCapsule.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepSphereSphere.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepSphereTriangle.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepTriangleUtils.cpp">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmBitMap.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmBoxPruning.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmCollection.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmConeLimitHelper.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmFlushPool.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmIDPool.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmIO.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmMatrix34.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmPhysXCommon.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmPool.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmPreallocatingPool.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmPriorityQueue.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmPtrTable.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmQueue.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmRadixSort.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmRadixSortBuffered.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmReaderWriterLock.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmRefCountable.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmRenderBuffer.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmRenderOutput.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmScaling.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmSpatialVector.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmTask.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmTaskPool.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmTmpMem.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmTransformUtils.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmUtils.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\src\CmVisualization.h">
+      <Filter>common\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common\PxBase.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common\PxCollection.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common\PxCoreUtilityTypes.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common\PxMetaData.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common\PxMetaDataFlags.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common\PxPhysicsInsertionCallback.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common\PxPhysXCommonConfig.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common\PxRenderBuffer.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common\PxSerialFramework.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common\PxSerializer.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common\PxStringTable.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common\PxTolerancesScale.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common\PxTypeInfo.h">
+      <Filter>include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxBoxGeometry.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxCapsuleGeometry.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxConvexMesh.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxConvexMeshGeometry.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxGeometry.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxGeometryHelpers.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxGeometryQuery.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxHeightField.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxHeightFieldDesc.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxHeightFieldFlag.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxHeightFieldGeometry.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxHeightFieldSample.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxMeshQuery.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxMeshScale.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxPlaneGeometry.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxSimpleTriangleMesh.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxSphereGeometry.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxTriangle.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxTriangleMesh.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry\PxTriangleMeshGeometry.h">
+      <Filter>include\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\include\windows\CmWindowsLoadLibrary.h">
+      <Filter>common\include\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\Common\include\windows\CmWindowsModuleUpdateLoader.h">
+      <Filter>common\include\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\headers\GuAxes.h">
+      <Filter>geomutils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\headers\GuBox.h">
+      <Filter>geomutils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\headers\GuDistanceSegmentBox.h">
+      <Filter>geomutils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\headers\GuDistanceSegmentSegment.h">
+      <Filter>geomutils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\headers\GuIntersectionBoxBox.h">
+      <Filter>geomutils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\headers\GuIntersectionTriangleBox.h">
+      <Filter>geomutils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\headers\GuRaycastTests.h">
+      <Filter>geomutils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\headers\GuSegment.h">
+      <Filter>geomutils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\headers\GuSIMDHelpers.h">
+      <Filter>geomutils\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\GeomUtils\GuContactBuffer.h">
+      <Filter>geomutils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\GeomUtils\GuContactPoint.h">
+      <Filter>geomutils\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuBounds.h">
+      <Filter>geomutils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuCapsule.h">
+      <Filter>geomutils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuCenterExtents.h">
+      <Filter>geomutils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuGeometryUnion.h">
+      <Filter>geomutils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuInternal.h">
+      <Filter>geomutils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuMeshFactory.h">
+      <Filter>geomutils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuMTD.h">
+      <Filter>geomutils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuOverlapTests.h">
+      <Filter>geomutils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuSerialize.h">
+      <Filter>geomutils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuSphere.h">
+      <Filter>geomutils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuSweepMTD.h">
+      <Filter>geomutils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuSweepSharedTests.h">
+      <Filter>geomutils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\GuSweepTests.h">
+      <Filter>geomutils\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\ccd\GuCCDSweepConvexMesh.h">
+      <Filter>geomutils\src\ccd</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\common\GuBarycentricCoordinates.h">
+      <Filter>geomutils\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\common\GuBoxConversion.h">
+      <Filter>geomutils\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\common\GuEdgeCache.h">
+      <Filter>geomutils\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\common\GuEdgeListData.h">
+      <Filter>geomutils\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\common\GuSeparatingAxes.h">
+      <Filter>geomutils\src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactMethodImpl.h">
+      <Filter>geomutils\src\contact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuContactPolygonPolygon.h">
+      <Filter>geomutils\src\contact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuFeatureCode.h">
+      <Filter>geomutils\src\contact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\contact\GuLegacyTraceLineCallback.h">
+      <Filter>geomutils\src\contact</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuBigConvexData.h">
+      <Filter>geomutils\src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuBigConvexData2.h">
+      <Filter>geomutils\src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuConvexEdgeFlags.h">
+      <Filter>geomutils\src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuConvexHelper.h">
+      <Filter>geomutils\src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuConvexMesh.h">
+      <Filter>geomutils\src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuConvexMeshData.h">
+      <Filter>geomutils\src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuConvexSupportTable.h">
+      <Filter>geomutils\src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuConvexUtilsInternal.h">
+      <Filter>geomutils\src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuCubeIndex.h">
+      <Filter>geomutils\src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuHillClimbing.h">
+      <Filter>geomutils\src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\convex\GuShapeConvex.h">
+      <Filter>geomutils\src\convex</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\distance\GuDistancePointBox.h">
+      <Filter>geomutils\src\distance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\distance\GuDistancePointSegment.h">
+      <Filter>geomutils\src\distance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\distance\GuDistancePointTriangle.h">
+      <Filter>geomutils\src\distance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\distance\GuDistancePointTriangleSIMD.h">
+      <Filter>geomutils\src\distance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\distance\GuDistanceSegmentSegmentSIMD.h">
+      <Filter>geomutils\src\distance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\distance\GuDistanceSegmentTriangle.h">
+      <Filter>geomutils\src\distance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\distance\GuDistanceSegmentTriangleSIMD.h">
+      <Filter>geomutils\src\distance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuEPA.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuEPAFacet.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuGJK.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuGJKPenetration.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuGJKRaycast.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuGJKSimplex.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuGJKTest.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuGJKType.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuGJKUtil.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuVecBox.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuVecCapsule.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuVecConvex.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuVecConvexHull.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuVecConvexHullNoScale.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuVecPlane.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuVecShrunkBox.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuVecShrunkConvexHull.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuVecShrunkConvexHullNoScale.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuVecSphere.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\gjk\GuVecTriangle.h">
+      <Filter>geomutils\src\gjk</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\hf\GuEntityReport.h">
+      <Filter>geomutils\src\hf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\hf\GuHeightField.h">
+      <Filter>geomutils\src\hf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\hf\GuHeightFieldData.h">
+      <Filter>geomutils\src\hf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\hf\GuHeightFieldUtil.h">
+      <Filter>geomutils\src\hf</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionCapsuleTriangle.h">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionEdgeEdge.h">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionRay.h">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionRayBox.h">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionRayBoxSIMD.h">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionRayCapsule.h">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionRayPlane.h">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionRaySphere.h">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionRayTriangle.h">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\intersection\GuIntersectionSphereBox.h">
+      <Filter>geomutils\src\intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV32.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV32Build.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4Build.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4Settings.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_AABBAABBSweepTest.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_BoxBoxOverlapTest.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_BoxOverlap_Internal.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_BoxSweep_Internal.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_BoxSweep_Params.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_CapsuleSweep_Internal.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_Common.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_Internal.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_ProcessStreamNoOrder_OBBOBB.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_ProcessStreamNoOrder_SegmentAABB.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_ProcessStreamNoOrder_SegmentAABB_Inflated.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_ProcessStreamNoOrder_SphereAABB.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_ProcessStreamOrdered_OBBOBB.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_ProcessStreamOrdered_SegmentAABB.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_ProcessStreamOrdered_SegmentAABB_Inflated.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_Slabs.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_Slabs_KajiyaNoOrder.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_Slabs_KajiyaOrdered.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_Slabs_SwizzledNoOrder.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBV4_Slabs_SwizzledOrdered.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuBVConstants.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuMeshData.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuMidphaseInterface.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuRTree.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuSweepConvexTri.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuSweepMesh.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuTriangle32.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuTriangleCache.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuTriangleMesh.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuTriangleMeshBV4.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuTriangleMeshRTree.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\mesh\GuTriangleVertexPointers.h">
+      <Filter>geomutils\src\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactConvexCommon.h">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactGen.h">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactGenUtil.h">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMContactMeshCallback.h">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMShapeConvex.h">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPCMTriangleContactGen.h">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\pcm\GuPersistentContactManifold.h">
+      <Filter>geomutils\src\pcm</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepBoxBox.h">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepBoxSphere.h">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepBoxTriangle_FeatureBased.h">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepBoxTriangle_SAT.h">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepCapsuleBox.h">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepCapsuleCapsule.h">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepCapsuleTriangle.h">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepSphereCapsule.h">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepSphereSphere.h">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepSphereTriangle.h">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\GeomUtils\src\sweep\GuSweepTriangleUtils.h">
+      <Filter>geomutils\src\sweep</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\compiler\cmake\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\compiler\resource_x64\PhysX3Common.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="common">
+      <UniqueIdentifier>{B621FFAE-03F0-3933-B3BA-C6B7A88A7199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\include">
+      <UniqueIdentifier>{6F2A9D55-A7BB-323D-903A-32DF42927F3A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\include\windows">
+      <UniqueIdentifier>{AD0D857E-AD69-3D67-A065-DE5660C21420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\src">
+      <UniqueIdentifier>{A583AA66-D29A-3E8E-9798-12ED552BCF9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common\src\windows">
+      <UniqueIdentifier>{707061F5-3BA7-3F2B-9732-535464AFE2CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils">
+      <UniqueIdentifier>{30FE1082-3A60-347F-A437-AAF821D9C806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\headers">
+      <UniqueIdentifier>{EB0D4857-C328-3C36-887B-CF93D1C57083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\include">
+      <UniqueIdentifier>{C4148A85-DB06-31B7-A80E-E06415F82414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src">
+      <UniqueIdentifier>{95C3E634-3A61-3F0A-B26D-4E80FDDCD893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\ccd">
+      <UniqueIdentifier>{99358639-E203-3EE2-B0DA-909CAB704AFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\common">
+      <UniqueIdentifier>{D48672B4-E307-3AF9-A5BB-2208EB8D4ABE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\contact">
+      <UniqueIdentifier>{68362842-7AF8-3C4A-87E1-107CE7BBF19E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\convex">
+      <UniqueIdentifier>{22A36EF9-FD40-33CF-A39D-169F01974CA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\distance">
+      <UniqueIdentifier>{117AAC72-9A7A-3FCA-A8CA-B701BE677121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\gjk">
+      <UniqueIdentifier>{C4B70CE7-D039-3F5F-8668-1F3F466040F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\hf">
+      <UniqueIdentifier>{D6A6B20B-D3C7-3B46-878F-42309F1CFDE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\intersection">
+      <UniqueIdentifier>{53E6AB2B-71A5-3C98-B952-0DCFD70F3CB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\mesh">
+      <UniqueIdentifier>{4975130F-1227-3E92-960A-FB5D08F3E114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\pcm">
+      <UniqueIdentifier>{0F9DBFDF-4AF8-3934-9AB6-126418BCCAFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geomutils\src\sweep">
+      <UniqueIdentifier>{12C9F0C9-8EFA-376E-86B2-5D03BD6A013A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{9E661E72-3CA7-3276-96C6-734185965DCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\common">
+      <UniqueIdentifier>{AAF0835D-7B98-3389-B67B-444576B9464D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\geometry">
+      <UniqueIdentifier>{5279F7A0-0D3C-35F1-B29E-D2D92232C555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{C195E859-0E75-3180-BDB8-072EEE51807C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

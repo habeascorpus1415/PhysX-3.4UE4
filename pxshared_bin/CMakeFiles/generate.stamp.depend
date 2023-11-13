@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageMessage.cmake
+C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/Externals/CMakeModules/FindnvToolsExt.cmake
+C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/Externals/CMakeModules/SetOutputPaths.cmake
+C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/common/CMakeLists.txt
+C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/common/PsFastXml.cmake
+C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/common/PxFoundation.cmake
+C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/common/PxPvdSDK.cmake
+C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/common/PxTask.cmake
+C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/windows/CMakeLists.txt
+C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/windows/PsFastXml.cmake
+C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/windows/PxFoundation.cmake
+C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/windows/PxPvdSDK.cmake
+C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/windows/PxTask.cmake

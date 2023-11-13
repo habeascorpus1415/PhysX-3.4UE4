@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyArticulation.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyArticulationContactPrep.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyArticulationContactPrepPF.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyArticulationHelper.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyArticulationScalar.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyArticulationSIMD.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyConstraintPartition.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyConstraintSetup.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyConstraintSetupBlock.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyContactPrep.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyContactPrep4.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyContactPrep4PF.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyContactPrepPF.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyDynamics.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyFrictionCorrelation.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyRigidBodyToSolverBody.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverConstraints.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverConstraintsBlock.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverControl.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverControlPF.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverPFConstraints.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverPFConstraintsBlock.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyThreadContext.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyThresholdTable.cpp">
+      <Filter>Dynamics Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\include\DyArticulation.h">
+      <Filter>Dynamics Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\include\DyConstraint.h">
+      <Filter>Dynamics Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\include\DyConstraintWriteBack.h">
+      <Filter>Dynamics Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\include\DyContext.h">
+      <Filter>Dynamics Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\include\DySleepingConfigulation.h">
+      <Filter>Dynamics Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\include\DyThresholdTable.h">
+      <Filter>Dynamics Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyArticulationContactPrep.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyArticulationFnsDebug.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyArticulationFnsScalar.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyArticulationFnsSimd.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyArticulationHelper.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyArticulationPImpl.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyArticulationReference.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyArticulationScalar.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyArticulationUtils.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyBodyCoreIntegrator.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyConstraintPartition.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyConstraintPrep.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyContactPrep.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyContactPrepShared.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyContactReduction.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyCorrelationBuffer.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyDynamics.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyFrictionPatch.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyFrictionPatchStreamPair.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverBody.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverConstraint1D.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverConstraint1D4.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverConstraintDesc.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverConstraintExtShared.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverConstraintsShared.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverConstraintTypes.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverContact.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverContact4.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverContactPF.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverContactPF4.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverContext.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverControl.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverControlPF.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverCore.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySolverExt.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DySpatial.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelDynamics\src\DyThreadContext.h">
+      <Filter>Dynamics Internal Includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\compiler\cmake\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Dynamics Includes">
+      <UniqueIdentifier>{C781C70C-5242-3B49-9624-94526DE1D1FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamics Internal Includes">
+      <UniqueIdentifier>{F7A9A6B4-4BAB-3E66-9665-A36CCC2B064A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dynamics Source">
+      <UniqueIdentifier>{56369898-12CE-3092-B5FF-B547F35C9C84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

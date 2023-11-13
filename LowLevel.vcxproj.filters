@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\API\src\px_globals.cpp">
+      <Filter>API Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\src\collision\PxcContact.cpp">
+      <Filter>Common Source\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\src\pipeline\PxcContactCache.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\src\pipeline\PxcContactMethodImpl.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\src\pipeline\PxcMaterialHeightField.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\src\pipeline\PxcMaterialMesh.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\src\pipeline\PxcMaterialMethodImpl.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\src\pipeline\PxcMaterialShape.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\src\pipeline\PxcNpBatch.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\src\pipeline\PxcNpCacheStreamPair.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\src\pipeline\PxcNpContactPrepShared.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\src\pipeline\PxcNpMemBlockPool.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\src\pipeline\PxcNpThreadContext.cpp">
+      <Filter>Common Source\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\src\PxsCCD.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\src\PxsContactManager.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\src\PxsContext.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\src\PxsDefaultMemoryManager.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\src\PxsIslandSim.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\src\PxsMaterialCombiner.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\src\PxsNphaseImplementationContext.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\src\PxsSimpleIslandManager.cpp">
+      <Filter>Software Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\API\include\PxsMaterialCore.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\API\include\PxsMaterialManager.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\API\include\PxvConfig.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\API\include\PxvContext.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\API\include\PxvDynamics.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\API\include\PxvGeometry.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\API\include\PxvGlobals.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\API\include\PxvManager.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\API\include\PxvSimStats.h">
+      <Filter>API Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\include\collision\PxcContactMethodImpl.h">
+      <Filter>Common Includes\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\include\pipeline\PxcCCDStateStreamPair.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\include\pipeline\PxcConstraintBlockStream.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\include\pipeline\PxcContactCache.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\include\pipeline\PxcMaterialMethodImpl.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\include\pipeline\PxcNpBatch.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\include\pipeline\PxcNpCache.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\include\pipeline\PxcNpCacheStreamPair.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\include\pipeline\PxcNpContactPrepShared.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\include\pipeline\PxcNpMemBlockPool.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\include\pipeline\PxcNpThreadContext.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\include\pipeline\PxcNpWorkUnit.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\include\pipeline\PxcRigidBody.h">
+      <Filter>Common Includes\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\include\utils\PxcScratchAllocator.h">
+      <Filter>Common Includes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\common\include\utils\PxcThreadCoherentCache.h">
+      <Filter>Common Includes\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsBodySim.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsCCD.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsContactManager.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsContactManagerState.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsContext.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsDefaultMemoryManager.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsHeapMemoryAllocator.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsIncrementalConstraintPartitioning.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsIslandManagerTypes.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsIslandSim.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsKernelWrangler.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsMaterialCombiner.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsMemoryManager.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsNphaseImplementationContext.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsRigidBody.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsShapeSim.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsSimpleIslandManager.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsSimulationController.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxsTransformCache.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevel\software\include\PxvNphaseImplementationContext.h">
+      <Filter>Software Includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\compiler\cmake\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="API Includes">
+      <UniqueIdentifier>{89DF5795-9E97-36C3-A7FA-4B72E5A04930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API Source">
+      <UniqueIdentifier>{2DA1AF56-6C8C-3BE4-B34B-EA1486FE48ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Includes">
+      <UniqueIdentifier>{0BE1B345-DA9E-36DB-BBFF-834681F7C641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Includes\collision">
+      <UniqueIdentifier>{405BE7F8-DC8E-3E5B-B3B3-10BA4F804933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Includes\pipeline">
+      <UniqueIdentifier>{34C94EB6-639F-3753-839C-0581714F0128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Includes\utils">
+      <UniqueIdentifier>{75775908-0830-3188-BAFB-09702FB62CF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Source">
+      <UniqueIdentifier>{47D6A360-1485-3E04-84FC-9000ECC12206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Source\collision">
+      <UniqueIdentifier>{A834AFA0-D476-3348-B8F0-03911FA12952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Source\pipeline">
+      <UniqueIdentifier>{0B73EEAF-C1DF-3D8B-B9FB-8710920564ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Software Includes">
+      <UniqueIdentifier>{1AEE3B1C-55AA-346D-AE18-F6F324E44C0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Software Source">
+      <UniqueIdentifier>{37018783-B4FF-3EE7-BEEC-A3DBCEE5410D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtBatcher.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtBodyTransformVault.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtCollision.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtCollisionBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtCollisionCapsule.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtCollisionConvex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtCollisionMesh.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtCollisionPlane.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtCollisionSphere.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtContextCpu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtDynamics.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtParticleData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtParticleShapeCpu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtParticleSystemSimCpu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtSpatialHash.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtSpatialLocalHash.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\gpu\PtRigidBodyAccessGpu.cpp">
+      <Filter>src\gpu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\include\PtBodyTransformVault.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\include\PtContext.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\include\PtGridCellVector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\include\PtParticle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\include\PtParticleContactManagerStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\include\PtParticleData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\include\PtParticleShape.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\include\PtParticleSystemCore.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\include\PtParticleSystemFlags.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\include\PtParticleSystemSim.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtBatcher.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtCollision.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtCollisionData.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtCollisionHelper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtCollisionMethods.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtCollisionParameters.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtConfig.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtConstants.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtContextCpu.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtDynamicHelper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtDynamics.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtDynamicsKernels.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtDynamicsParameters.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtDynamicsTempBuffers.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtHeightFieldAabbTest.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtPacketSections.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtParticleCell.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtParticleOpcodeCache.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtParticleShapeCpu.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtParticleSystemSimCpu.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtSpatialHash.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtSpatialHashHelper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\LowLevelParticles\src\PtTwoWayData.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\compiler\cmake\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{9E661E72-3CA7-3276-96C6-734185965DCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{96EDB04D-3857-3D1F-AC65-1CF565980106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gpu">
+      <UniqueIdentifier>{B97C8E42-5D95-356F-AD88-89181ADA5800}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

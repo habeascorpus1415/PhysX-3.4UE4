@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctBoxController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctCapsuleController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctCharacterController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctCharacterControllerCallbacks.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctCharacterControllerManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctController.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctObstacleContext.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctSweptBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctSweptCapsule.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctSweptVolume.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\characterkinematic\PxBoxController.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\characterkinematic\PxCapsuleController.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\characterkinematic\PxCharacter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\characterkinematic\PxController.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\characterkinematic\PxControllerBehavior.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\characterkinematic\PxControllerManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\characterkinematic\PxControllerObstacles.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\characterkinematic\PxExtended.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctBoxController.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctCapsuleController.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctCharacterController.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctCharacterControllerManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctController.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctInternalStructs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctObstacleContext.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctSweptBox.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctSweptCapsule.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctSweptVolume.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\PhysXCharacterKinematic\src\CctUtils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Source\compiler\cmake\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{9E661E72-3CA7-3276-96C6-734185965DCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{96EDB04D-3857-3D1F-AC65-1CF565980106}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="checked|x64">
+      <Configuration>checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="profile|x64">
+      <Configuration>profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{938C56F6-B024-3BF1-A056-481C09727A46}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>PxPvdSDK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">PxPvdSDK.dir\debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='debug|x64'">PxPvdSDKDEBUG_x64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\checked\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">PxPvdSDK.dir\checked\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='checked|x64'">PxPvdSDKCHECKED_x64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='checked|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='checked|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='checked|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\profile\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">PxPvdSDK.dir\profile\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='profile|x64'">PxPvdSDKPROFILE_x64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='profile|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='profile|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='profile|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">PxPvdSDK.dir\release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='release|x64'">PxPvdSDK_x64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\..\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\foundation\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\pvd\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\filebuf\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\nvToolsExt\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>UninitializedLocalUsageCheck</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4514;4820;4127;4710;4711;4577</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;DISABLE_CUDA_PHYSX;PX_PVDSDK_DLL=1;PX_FOUNDATION_DLL=1;_DEBUG;PX_DEBUG=1;PX_CHECKED=1;PX_NVTX=0;WIN64;CMAKE_INTDIR="debug";PxPvdSDK_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\debug\PxPvdSDKDEBUG_x64.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;DISABLE_CUDA_PHYSX;PX_PVDSDK_DLL=1;PX_FOUNDATION_DLL=1;PX_DEBUG=1;PX_CHECKED=1;PX_NVTX=0;WIN64;CMAKE_INTDIR=\"debug\";PxPvdSDK_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\..\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\foundation\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\pvd\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\filebuf\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\nvToolsExt\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\..\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\foundation\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\pvd\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\filebuf\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\nvToolsExt\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>debug\PxFoundationDEBUG_x64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/User/Documents/git/PhysX-3.4UE4/pxshared_bin/debug/PxPvdSDKDEBUG_x64.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/User/Documents/git/PhysX-3.4UE4/pxshared_bin/debug/PxPvdSDKDEBUG_x64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\..\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\foundation\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\pvd\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\filebuf\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\nvToolsExt\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4514;4820;4127;4710;4711;4577</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;DISABLE_CUDA_PHYSX;PX_PVDSDK_DLL=1;PX_FOUNDATION_DLL=1;NDEBUG;PX_CHECKED=1;PX_NVTX=0;WIN64;CMAKE_INTDIR="checked";PxPvdSDK_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\checked\PxPvdSDKCHECKED_x64.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;DISABLE_CUDA_PHYSX;PX_PVDSDK_DLL=1;PX_FOUNDATION_DLL=1;NDEBUG;PX_CHECKED=1;PX_NVTX=0;WIN64;CMAKE_INTDIR=\"checked\";PxPvdSDK_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\..\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\foundation\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\pvd\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\filebuf\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\nvToolsExt\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\..\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\foundation\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\pvd\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\filebuf\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\nvToolsExt\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>checked\PxFoundationCHECKED_x64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/User/Documents/git/PhysX-3.4UE4/pxshared_bin/checked/PxPvdSDKCHECKED_x64.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/User/Documents/git/PhysX-3.4UE4/pxshared_bin/checked/PxPvdSDKCHECKED_x64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\..\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\foundation\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\pvd\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\filebuf\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\nvToolsExt\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4514;4820;4127;4710;4711;4577</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;DISABLE_CUDA_PHYSX;PX_PVDSDK_DLL=1;PX_FOUNDATION_DLL=1;NDEBUG;PX_PROFILE=1;PX_NVTX=0;WIN64;CMAKE_INTDIR="profile";PxPvdSDK_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\profile\PxPvdSDKPROFILE_x64.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;DISABLE_CUDA_PHYSX;PX_PVDSDK_DLL=1;PX_FOUNDATION_DLL=1;NDEBUG;PX_PROFILE=1;PX_NVTX=0;WIN64;CMAKE_INTDIR=\"profile\";PxPvdSDK_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\..\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\foundation\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\pvd\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\filebuf\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\nvToolsExt\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\..\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\foundation\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\pvd\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\filebuf\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\nvToolsExt\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>profile\PxFoundationPROFILE_x64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/User/Documents/git/PhysX-3.4UE4/pxshared_bin/profile/PxPvdSDKPROFILE_x64.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/User/Documents/git/PhysX-3.4UE4/pxshared_bin/profile/PxPvdSDKPROFILE_x64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\..\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\foundation\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\pvd\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\filebuf\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\nvToolsExt\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /d2Zi+</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4514;4820;4127;4710;4711;4577</DisableSpecificWarnings>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;DISABLE_CUDA_PHYSX;PX_PVDSDK_DLL=1;PX_FOUNDATION_DLL=1;NDEBUG;WIN64;CMAKE_INTDIR="release";PxPvdSDK_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\release\PxPvdSDK_x64.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;DISABLE_CUDA_PHYSX;PX_PVDSDK_DLL=1;PX_FOUNDATION_DLL=1;NDEBUG;WIN64;CMAKE_INTDIR=\"release\";PxPvdSDK_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\..\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\foundation\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\pvd\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\filebuf\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\nvToolsExt\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\..\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\foundation\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\pvd\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\..\..\..\..\src\filebuf\include;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\nvToolsExt\1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>release\PxFoundation_x64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/User/Documents/git/PhysX-3.4UE4/pxshared_bin/release/PxPvdSDK_x64.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/User/Documents/git/PhysX-3.4UE4/pxshared_bin/release/PxPvdSDK_x64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/compiler/cmake/windows -BC:/Users/User/Documents/git/PhysX-3.4UE4 --check-stamp-file C:/Users/User/Documents/git/PhysX-3.4UE4/pxshared_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\CMakeModules\FindnvToolsExt.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\CMakeModules\SetOutputPaths.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\CMakeLists.txt;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PsFastXml.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxFoundation.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxPvdSDK.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxTask.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PsFastXml.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxFoundation.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxPvdSDK.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxTask.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/compiler/cmake/windows -BC:/Users/User/Documents/git/PhysX-3.4UE4 --check-stamp-file C:/Users/User/Documents/git/PhysX-3.4UE4/pxshared_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\CMakeModules\FindnvToolsExt.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\CMakeModules\SetOutputPaths.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\CMakeLists.txt;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PsFastXml.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxFoundation.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxPvdSDK.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxTask.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PsFastXml.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxFoundation.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxPvdSDK.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxTask.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/compiler/cmake/windows -BC:/Users/User/Documents/git/PhysX-3.4UE4 --check-stamp-file C:/Users/User/Documents/git/PhysX-3.4UE4/pxshared_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\CMakeModules\FindnvToolsExt.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\CMakeModules\SetOutputPaths.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\CMakeLists.txt;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PsFastXml.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxFoundation.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxPvdSDK.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxTask.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PsFastXml.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxFoundation.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxPvdSDK.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxTask.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/compiler/cmake/windows -BC:/Users/User/Documents/git/PhysX-3.4UE4 --check-stamp-file C:/Users/User/Documents/git/PhysX-3.4UE4/pxshared_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\CMakeModules\FindnvToolsExt.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\CMakeModules\SetOutputPaths.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\CMakeLists.txt;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PsFastXml.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxFoundation.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxPvdSDK.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxTask.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PsFastXml.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxFoundation.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxPvdSDK.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxTask.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd\PxPvd.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd\PxPvdTransport.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PsPvd.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PxProfileAllocatorWrapper.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PxPvdClient.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PxPvdDataStream.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PxPvdDataStreamHelpers.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PxPvdErrorCodes.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PxPvdObjectModelBaseTypes.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PxPvdRenderBuffer.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PxPvdUserRenderer.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileBase.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileCompileTimeEventFilter.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileContextProvider.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileContextProviderImpl.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileDataBuffer.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileDataParsing.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventBuffer.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventBufferAtomic.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventBufferClient.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventBufferClientManager.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventFilter.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventHandler.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventId.h" />
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventImpl.cpp" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventMutex.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventNames.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventParser.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEvents.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventSender.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventSerialization.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventSystem.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemory.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemoryBuffer.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemoryEventBuffer.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemoryEventParser.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemoryEventRecorder.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemoryEventReflexiveWriter.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemoryEvents.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemoryEventSummarizer.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemoryEventTypes.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileScopedEvent.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileScopedMutexLock.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileZone.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileZoneImpl.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileZoneManager.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileZoneManagerImpl.h" />
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvd.cpp" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdBits.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdByteStreams.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdCommStreamEvents.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdCommStreamEventSink.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdCommStreamSDKEventTypes.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdCommStreamTypes.h" />
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdDataStream.cpp" />
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdDefaultFileTransport.cpp" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdDefaultFileTransport.h" />
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdDefaultSocketTransport.cpp" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdDefaultSocketTransport.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdFoundation.h" />
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdImpl.cpp" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdImpl.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdInternalByteStreams.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdMarshalling.h" />
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdMemClient.cpp" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdMemClient.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdObjectModel.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdObjectModelInternalTypeDefs.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdObjectModelInternalTypes.h" />
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdObjectModelMetaData.cpp" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdObjectModelMetaData.h" />
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdObjectRegistrar.cpp" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdObjectRegistrar.h" />
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdProfileZoneClient.cpp" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdProfileZoneClient.h" />
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdUserRenderer.cpp" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdUserRenderImpl.h" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdUserRenderTypes.h" />
+    <ResourceCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\resource_x64\PxPvdSDK.rc" />
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd\windows\PxWindowsPvdDelayLoadHook.h" />
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\windows\PxWindowsPvdDelayLoadHook.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\User\Documents\git\PhysX-3.4UE4\ZERO_CHECK.vcxproj">
+      <Project>{B1967810-3001-32B6-B5A8-5BBD1E34BFAD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\PxFoundation.vcxproj">
+      <Project>{7120FB60-5036-3006-A7E3-E8CA3CF87937}</Project>
+      <Name>PxFoundation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

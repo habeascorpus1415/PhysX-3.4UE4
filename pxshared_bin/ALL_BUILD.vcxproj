@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="debug|x64">
+      <Configuration>debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="checked|x64">
+      <Configuration>checked</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="profile|x64">
+      <Configuration>profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="release|x64">
+      <Configuration>release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B3174A45-4F14-3B97-82D1-D2FCDB30E8B1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='checked|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='profile|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='checked|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='profile|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='debug|x64'">Building Custom Rule C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/compiler/cmake/windows -BC:/Users/User/Documents/git/PhysX-3.4UE4 --check-stamp-file C:/Users/User/Documents/git/PhysX-3.4UE4/pxshared_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\CMakeModules\FindnvToolsExt.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\CMakeModules\SetOutputPaths.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\CMakeLists.txt;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PsFastXml.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxFoundation.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxPvdSDK.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxTask.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PsFastXml.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxFoundation.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxPvdSDK.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxTask.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='debug|x64'">C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='checked|x64'">Building Custom Rule C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='checked|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/compiler/cmake/windows -BC:/Users/User/Documents/git/PhysX-3.4UE4 --check-stamp-file C:/Users/User/Documents/git/PhysX-3.4UE4/pxshared_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\CMakeModules\FindnvToolsExt.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\CMakeModules\SetOutputPaths.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\CMakeLists.txt;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PsFastXml.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxFoundation.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxPvdSDK.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxTask.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PsFastXml.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxFoundation.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxPvdSDK.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxTask.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='checked|x64'">C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='checked|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='profile|x64'">Building Custom Rule C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='profile|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/compiler/cmake/windows -BC:/Users/User/Documents/git/PhysX-3.4UE4 --check-stamp-file C:/Users/User/Documents/git/PhysX-3.4UE4/pxshared_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\CMakeModules\FindnvToolsExt.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\CMakeModules\SetOutputPaths.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\CMakeLists.txt;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PsFastXml.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxFoundation.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxPvdSDK.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxTask.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PsFastXml.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxFoundation.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxPvdSDK.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxTask.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='profile|x64'">C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='profile|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='release|x64'">Building Custom Rule C:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PxShared/src/compiler/cmake/windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/SVN/master_epic_main/Engine/Source/ThirdParty/PhysX3/PhysX_3.4/Source/compiler/cmake/windows -BC:/Users/User/Documents/git/PhysX-3.4UE4 --check-stamp-file C:/Users/User/Documents/git/PhysX-3.4UE4/pxshared_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\CMakeModules\FindnvToolsExt.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\Externals\CMakeModules\SetOutputPaths.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\CMakeLists.txt;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PsFastXml.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxFoundation.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxPvdSDK.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\common\PxTask.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PsFastXml.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxFoundation.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxPvdSDK.cmake;C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\PxTask.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='release|x64'">C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\User\Documents\git\PhysX-3.4UE4\ZERO_CHECK.vcxproj">
+      <Project>{B1967810-3001-32B6-B5A8-5BBD1E34BFAD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\PsFastXml.vcxproj">
+      <Project>{C19502E3-168F-3B90-9066-58FCF4F3BA52}</Project>
+      <Name>PsFastXml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\PxFoundation.vcxproj">
+      <Project>{7120FB60-5036-3006-A7E3-E8CA3CF87937}</Project>
+      <Name>PxFoundation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\PxPvdSDK.vcxproj">
+      <Project>{938C56F6-B024-3BF1-A056-481C09727A46}</Project>
+      <Name>PxPvdSDK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\User\Documents\git\PhysX-3.4UE4\pxshared_bin\PxTask.vcxproj">
+      <Project>{28D0DEC5-06AA-316B-8FAD-C61CFFA7EADB}</Project>
+      <Name>PxTask</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

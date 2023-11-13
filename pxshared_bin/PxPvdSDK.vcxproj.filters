@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventImpl.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvd.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdDataStream.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdDefaultFileTransport.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdDefaultSocketTransport.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdImpl.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdMemClient.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdObjectModelMetaData.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdObjectRegistrar.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdProfileZoneClient.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdUserRenderer.cpp">
+      <Filter>src\src</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\windows\PxWindowsPvdDelayLoadHook.cpp">
+      <Filter>src\src\windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd\PxPvd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd\PxPvdTransport.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PsPvd.h">
+      <Filter>src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PxProfileAllocatorWrapper.h">
+      <Filter>src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PxPvdClient.h">
+      <Filter>src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PxPvdDataStream.h">
+      <Filter>src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PxPvdDataStreamHelpers.h">
+      <Filter>src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PxPvdErrorCodes.h">
+      <Filter>src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PxPvdObjectModelBaseTypes.h">
+      <Filter>src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PxPvdRenderBuffer.h">
+      <Filter>src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\include\PxPvdUserRenderer.h">
+      <Filter>src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileBase.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileCompileTimeEventFilter.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileContextProvider.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileContextProviderImpl.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileDataBuffer.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileDataParsing.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventBuffer.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventBufferAtomic.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventBufferClient.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventBufferClientManager.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventFilter.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventHandler.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventId.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventMutex.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventNames.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventParser.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEvents.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventSender.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventSerialization.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileEventSystem.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemory.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemoryBuffer.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemoryEventBuffer.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemoryEventParser.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemoryEventRecorder.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemoryEventReflexiveWriter.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemoryEvents.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemoryEventSummarizer.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileMemoryEventTypes.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileScopedEvent.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileScopedMutexLock.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileZone.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileZoneImpl.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileZoneManager.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxProfileZoneManagerImpl.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdBits.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdByteStreams.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdCommStreamEvents.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdCommStreamEventSink.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdCommStreamSDKEventTypes.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdCommStreamTypes.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdDefaultFileTransport.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdDefaultSocketTransport.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdFoundation.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdImpl.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdInternalByteStreams.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdMarshalling.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdMemClient.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdObjectModel.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdObjectModelInternalTypeDefs.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdObjectModelInternalTypes.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdObjectModelMetaData.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdObjectRegistrar.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdProfileZoneClient.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdUserRenderImpl.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\pvd\src\PxPvdUserRenderTypes.h">
+      <Filter>src\src</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd\windows\PxWindowsPvdDelayLoadHook.h">
+      <Filter>include\windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\cmake\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\SVN\master_epic_main\Engine\Source\ThirdParty\PhysX3\PxShared\src\compiler\resource_x64\PxPvdSDK.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{9E661E72-3CA7-3276-96C6-734185965DCB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\windows">
+      <UniqueIdentifier>{E9735226-058C-3EF7-A42F-097A14AA9670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{C195E859-0E75-3180-BDB8-072EEE51807C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{96EDB04D-3857-3D1F-AC65-1CF565980106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\include">
+      <UniqueIdentifier>{876EB317-46B3-3F4C-B5C5-70536F6E2CD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\src">
+      <UniqueIdentifier>{3F9D2D91-828A-3EB9-83F6-AF5D6FD1F18F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\src\windows">
+      <UniqueIdentifier>{27E85944-F64B-3945-B30D-36238D0B7EDF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
